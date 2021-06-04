@@ -1,0 +1,125 @@
+body{
+   background: black;
+
+}
+
+#contact .title, .text, p, .head, .sub-title,
+.submit{
+    color: #fff;
+    
+}
+
+#contact{
+    padding: 3%;
+}
+
+
+.contact .contact-content .column{
+    width: calc(60% - 30px);
+}
+.contact .contact-content .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.contact .contact-content .left .head{
+    font-size: 25px;
+    font-weight: 500px;
+}
+.contact .contact-content .left p{
+    text-align: justify;
+}
+.contact .contact-content .left .icons{
+    margin: 0px 0;
+}
+.contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .contact-content .row .info{
+    margin-left: 5px;
+}
+.contact .contact-content .row i{
+    font-size: 25px;
+    color: white;
+}
+.contact .contact-content .info .head{
+    font-weight: 500;
+}
+.contact .contact-content .info .sub-title{
+    color: #fff;
+}
+.contact .contact-content {
+    display: inline-flex;
+}
+.contact .contact-content .right{
+    margin-left: 50px;
+}
+.contact .right form .field,
+.contact .right form .fields .field{
+    display: flex;
+    height: 45px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact .right form .field input
+{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+
+}
+.contact .right form .textarea textarea{
+    
+    height: 100px;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 17px;
+    
+    
+}
+.contact .right form .button{
+ 
+    margin-top: 80px;
+    height: 47px;
+    width: 100%;
+    
+
+}
+.contact .right form .button button{
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    background: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    
+    
+}
+
+.contact .right form .button:hover button{
+
+    background: none;
+    border: 2px white;
+
+
+}
+#contact {
+     margin-left: 27%;
+
+
+}
+
+#contact .message{
+    
+} 
